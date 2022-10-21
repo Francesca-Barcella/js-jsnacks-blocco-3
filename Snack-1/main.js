@@ -75,9 +75,10 @@ const automobili = [
 
 ]
 
-const Benzina = automobili.filter(autoBenzina);
+const benzina = automobili.filter(alimentazione);
+console.log(benzina);
 
-function autoBenzina(alimentazione){
+/* function autoBenzina(alimentazione){
     return 
 }
 
@@ -87,4 +88,4 @@ const autoBenzina = automobili.filter((alimentazione) => {
         return true
     } return false
 });
-console.log(benzina);
+console.log(benzina); */
