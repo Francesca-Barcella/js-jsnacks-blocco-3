@@ -74,3 +74,17 @@ const automobili = [
     },
 
 ]
+
+const Benzina = automobili.filter(autoBenzina);
+
+function autoBenzina(alimentazione){
+    return 
+}
+
+
+const autoBenzina = automobili.filter((alimentazione) => {
+    if ((automobili.alimentazione) === benzina) {
+        return true
+    } return false
+});
+console.log(benzina);
