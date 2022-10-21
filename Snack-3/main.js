@@ -15,31 +15,25 @@ const animals = [
     {
         nome: 'leone',
         famiglia: 'felidi',
-        classe: 'mammiferi'
+        classe: 'mammiferi',
     },
 
     {
         nome: 'cane',
         famiglia: 'canidi',
-        classe: 'mammiferi'
+        classe: 'mammiferi',
     },
 
     {
         nome: 'gallina',
         famiglia: 'fasianidi',
-        classe: 'uccelli'
+        classe: 'uccelli',
     }
 ];
 
 console.log(animals);
 
-const mammiferi = animals.filter(animal => animals.classe === 'mammiferi');
+const mammiferi = animals.filter(animal => animal.classe === 'mammiferi');
 console.log(mammiferi);
 
-const newAnimals = animals.filter(animal => {
-    if (animals.classe !== 'mammiferi') {
-        return true
-    }
-});
-console.log(newAnimals);
 
